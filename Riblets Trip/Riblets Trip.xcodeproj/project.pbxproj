@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112B3FFC2043002D0027A3FE /* CurrentTrip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B3FF42043002D0027A3FE /* CurrentTrip.storyboard */; };
+		112B3FFD2043002D0027A3FE /* CurrentTripPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B3FF52043002D0027A3FE /* CurrentTripPresenter.swift */; };
+		112B3FFE2043002D0027A3FE /* CurrentTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B3FF62043002D0027A3FE /* CurrentTripViewController.swift */; };
+		112B3FFF2043002D0027A3FE /* CurrentTripInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B3FF72043002D0027A3FE /* CurrentTripInteractor.swift */; };
+		112B40002043002D0027A3FE /* CurrentTripBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B3FF82043002D0027A3FE /* CurrentTripBuilder.swift */; };
+		112B40012043002D0027A3FE /* CurrentTripRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B3FF92043002D0027A3FE /* CurrentTripRouter.swift */; };
+		112B4009204300F90027A3FE /* LastTripInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4003204300F90027A3FE /* LastTripInteractor.swift */; };
+		112B400A204300F90027A3FE /* LastTripPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4004204300F90027A3FE /* LastTripPresenter.swift */; };
+		112B400B204300F90027A3FE /* LastTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4005204300F90027A3FE /* LastTripViewController.swift */; };
+		112B400C204300F90027A3FE /* LastTripBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4006204300F90027A3FE /* LastTripBuilder.swift */; };
+		112B400D204300F90027A3FE /* LastTrip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B4007204300F90027A3FE /* LastTrip.storyboard */; };
+		112B400E204300F90027A3FE /* LastTripRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4008204300F90027A3FE /* LastTripRouter.swift */; };
+		112B4016204308980027A3FE /* DateSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4010204308980027A3FE /* DateSelectionPresenter.swift */; };
+		112B4017204308980027A3FE /* DateSelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4011204308980027A3FE /* DateSelectionRouter.swift */; };
+		112B4018204308980027A3FE /* DateSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4012204308980027A3FE /* DateSelectionInteractor.swift */; };
+		112B4019204308980027A3FE /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4013204308980027A3FE /* DateSelectionViewController.swift */; };
+		112B401A204308980027A3FE /* DateSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B4014204308980027A3FE /* DateSelection.storyboard */; };
+		112B401B204308980027A3FE /* DateSelectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4015204308980027A3FE /* DateSelectionBuilder.swift */; };
+		112B401D2045D19F0027A3FE /* TripsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B401C2045D19F0027A3FE /* TripsService.swift */; };
+		115B2412204022C8009FA274 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B2411204022C8009FA274 /* Models.swift */; };
+		115B24152040235E009FA274 /* CoordinatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24142040235E009FA274 /* CoordinatorRouter.swift */; };
+		115B241720402376009FA274 /* CoordinatorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B241620402376009FA274 /* CoordinatorBuilder.swift */; };
+		115B241B204023C2009FA274 /* CoordinatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B241A204023C2009FA274 /* CoordinatorInteractor.swift */; };
+		115B241D204024E8009FA274 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B241C204024E8009FA274 /* Component.swift */; };
+		115B24252042ADCD009FA274 /* RouteSelectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24242042ADCD009FA274 /* RouteSelectionBuilder.swift */; };
+		115B24272042ADEE009FA274 /* RouteSelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24262042ADEE009FA274 /* RouteSelectionRouter.swift */; };
+		115B242A2042AF55009FA274 /* RouteSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24292042AF55009FA274 /* RouteSelectionInteractor.swift */; };
+		115B242C2042B039009FA274 /* RouteSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B242B2042B039009FA274 /* RouteSelectionPresenter.swift */; };
+		115B242E2042B06B009FA274 /* RouteSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115B242D2042B06B009FA274 /* RouteSelection.storyboard */; };
+		11D653022036FBB200974F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D653012036FBB200974F71 /* AppDelegate.swift */; };
+		11D653092036FBB200974F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D653082036FBB200974F71 /* Assets.xcassets */; };
+		11D6530C2036FBB200974F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6530A2036FBB200974F71 /* LaunchScreen.storyboard */; };
+		11D653172036FBB200974F71 /* Riblets_TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D653162036FBB200974F71 /* Riblets_TripTests.swift */; };
+		11D653302036FC1A00974F71 /* RibletsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D653312036FC1A00974F71 /* RibletsKit.framework */; };
+		11D653342036FC4D00974F71 /* RouteSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D653332036FC4D00974F71 /* RouteSelectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11028200203E003A00792FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D653242036FBCE00974F71 /* RibletsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 114F55931F7DB3FB009D9721;
+			remoteInfo = RibletsKit;
+		};
+		11028202203E003A00792FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D653242036FBCE00974F71 /* RibletsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 114F559C1F7DB3FB009D9721;
+			remoteInfo = RibletsKitTests;
+		};
+		11D653132036FBB200974F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D652F62036FBB200974F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D652FD2036FBB200974F71;
+			remoteInfo = "Riblets Trip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112B3FF42043002D0027A3FE /* CurrentTrip.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CurrentTrip.storyboard; sourceTree = "<group>"; };
+		112B3FF52043002D0027A3FE /* CurrentTripPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTripPresenter.swift; sourceTree = "<group>"; };
+		112B3FF62043002D0027A3FE /* CurrentTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTripViewController.swift; sourceTree = "<group>"; };
+		112B3FF72043002D0027A3FE /* CurrentTripInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTripInteractor.swift; sourceTree = "<group>"; };
+		112B3FF82043002D0027A3FE /* CurrentTripBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTripBuilder.swift; sourceTree = "<group>"; };
+		112B3FF92043002D0027A3FE /* CurrentTripRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTripRouter.swift; sourceTree = "<group>"; };
+		112B4003204300F90027A3FE /* LastTripInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripInteractor.swift; sourceTree = "<group>"; };
+		112B4004204300F90027A3FE /* LastTripPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripPresenter.swift; sourceTree = "<group>"; };
+		112B4005204300F90027A3FE /* LastTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripViewController.swift; sourceTree = "<group>"; };
+		112B4006204300F90027A3FE /* LastTripBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripBuilder.swift; sourceTree = "<group>"; };
+		112B4007204300F90027A3FE /* LastTrip.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LastTrip.storyboard; sourceTree = "<group>"; };
+		112B4008204300F90027A3FE /* LastTripRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripRouter.swift; sourceTree = "<group>"; };
+		112B4010204308980027A3FE /* DateSelectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionPresenter.swift; sourceTree = "<group>"; };
+		112B4011204308980027A3FE /* DateSelectionRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionRouter.swift; sourceTree = "<group>"; };
+		112B4012204308980027A3FE /* DateSelectionInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionInteractor.swift; sourceTree = "<group>"; };
+		112B4013204308980027A3FE /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
+		112B4014204308980027A3FE /* DateSelection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DateSelection.storyboard; sourceTree = "<group>"; };
+		112B4015204308980027A3FE /* DateSelectionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionBuilder.swift; sourceTree = "<group>"; };
+		112B401C2045D19F0027A3FE /* TripsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsService.swift; sourceTree = "<group>"; };
+		115B2411204022C8009FA274 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		115B24142040235E009FA274 /* CoordinatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorRouter.swift; sourceTree = "<group>"; };
+		115B241620402376009FA274 /* CoordinatorBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorBuilder.swift; sourceTree = "<group>"; };
+		115B241A204023C2009FA274 /* CoordinatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorInteractor.swift; sourceTree = "<group>"; };
+		115B241C204024E8009FA274 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		115B24242042ADCD009FA274 /* RouteSelectionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionBuilder.swift; sourceTree = "<group>"; };
+		115B24262042ADEE009FA274 /* RouteSelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionRouter.swift; sourceTree = "<group>"; };
+		115B24292042AF55009FA274 /* RouteSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionInteractor.swift; sourceTree = "<group>"; };
+		115B242B2042B039009FA274 /* RouteSelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionPresenter.swift; sourceTree = "<group>"; };
+		115B242D2042B06B009FA274 /* RouteSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RouteSelection.storyboard; sourceTree = "<group>"; };
+		11D652FE2036FBB200974F71 /* Riblets Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riblets Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D653012036FBB200974F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11D653082036FBB200974F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11D6530B2036FBB200974F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D6530D2036FBB200974F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D653122036FBB200974F71 /* Riblets TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Riblets TripTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D653162036FBB200974F71 /* Riblets_TripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riblets_TripTests.swift; sourceTree = "<group>"; };
+		11D653182036FBB200974F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D653242036FBCE00974F71 /* RibletsKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RibletsKit.xcodeproj; path = ../RibletsKit/RibletsKit.xcodeproj; sourceTree = "<group>"; };
+		11D653312036FC1A00974F71 /* RibletsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RibletsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D653332036FC4D00974F71 /* RouteSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D652FB2036FBB200974F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D653302036FC1A00974F71 /* RibletsKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D6530F2036FBB200974F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110281FC203E003900792FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11028201203E003A00792FCB /* RibletsKit.framework */,
+				11028203203E003A00792FCB /* RibletsKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112B3FF32043002D0027A3FE /* CurrentTripRiblet */ = {
+			isa = PBXGroup;
+			children = (
+				112B3FF42043002D0027A3FE /* CurrentTrip.storyboard */,
+				112B3FF52043002D0027A3FE /* CurrentTripPresenter.swift */,
+				112B3FF62043002D0027A3FE /* CurrentTripViewController.swift */,
+				112B3FF72043002D0027A3FE /* CurrentTripInteractor.swift */,
+				112B3FF82043002D0027A3FE /* CurrentTripBuilder.swift */,
+				112B3FF92043002D0027A3FE /* CurrentTripRouter.swift */,
+			);
+			path = CurrentTripRiblet;
+			sourceTree = "<group>";
+		};
+		112B4002204300F90027A3FE /* LastTripRiblet */ = {
+			isa = PBXGroup;
+			children = (
+				112B4003204300F90027A3FE /* LastTripInteractor.swift */,
+				112B4004204300F90027A3FE /* LastTripPresenter.swift */,
+				112B4005204300F90027A3FE /* LastTripViewController.swift */,
+				112B4006204300F90027A3FE /* LastTripBuilder.swift */,
+				112B4007204300F90027A3FE /* LastTrip.storyboard */,
+				112B4008204300F90027A3FE /* LastTripRouter.swift */,
+			);
+			path = LastTripRiblet;
+			sourceTree = "<group>";
+		};
+		112B400F204308980027A3FE /* DateSelectionRiblet */ = {
+			isa = PBXGroup;
+			children = (
+				112B4010204308980027A3FE /* DateSelectionPresenter.swift */,
+				112B4011204308980027A3FE /* DateSelectionRouter.swift */,
+				112B4012204308980027A3FE /* DateSelectionInteractor.swift */,
+				112B4013204308980027A3FE /* DateSelectionViewController.swift */,
+				112B4014204308980027A3FE /* DateSelection.storyboard */,
+				112B4015204308980027A3FE /* DateSelectionBuilder.swift */,
+			);
+			path = DateSelectionRiblet;
+			sourceTree = "<group>";
+		};
+		115B240C20401D64009FA274 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				115B2411204022C8009FA274 /* Models.swift */,
+				112B401C2045D19F0027A3FE /* TripsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		115B241320402335009FA274 /* CoordinatorRiblet */ = {
+			isa = PBXGroup;
+			children = (
+				115B241620402376009FA274 /* CoordinatorBuilder.swift */,
+				115B24142040235E009FA274 /* CoordinatorRouter.swift */,
+				115B241A204023C2009FA274 /* CoordinatorInteractor.swift */,
+			);
+			path = CoordinatorRiblet;
+			sourceTree = "<group>";
+		};
+		11D652F52036FBB200974F71 = {
+			isa = PBXGroup;
+			children = (
+				11D653242036FBCE00974F71 /* RibletsKit.xcodeproj */,
+				11D653002036FBB200974F71 /* Riblets Trip */,
+				11D653152036FBB200974F71 /* Riblets TripTests */,
+				11D652FF2036FBB200974F71 /* Products */,
+				11D6532F2036FC1A00974F71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11D652FF2036FBB200974F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D652FE2036FBB200974F71 /* Riblets Trip.app */,
+				11D653122036FBB200974F71 /* Riblets TripTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D653002036FBB200974F71 /* Riblets Trip */ = {
+			isa = PBXGroup;
+			children = (
+				11D653012036FBB200974F71 /* AppDelegate.swift */,
+				115B241C204024E8009FA274 /* Component.swift */,
+				115B240C20401D64009FA274 /* Services */,
+				112B400F204308980027A3FE /* DateSelectionRiblet */,
+				112B4002204300F90027A3FE /* LastTripRiblet */,
+				112B3FF32043002D0027A3FE /* CurrentTripRiblet */,
+				115B241320402335009FA274 /* CoordinatorRiblet */,
+				11D653322036FC2D00974F71 /* RouteSelectionRiblet */,
+				11D653082036FBB200974F71 /* Assets.xcassets */,
+				11D6530A2036FBB200974F71 /* LaunchScreen.storyboard */,
+				11D6530D2036FBB200974F71 /* Info.plist */,
+			);
+			path = "Riblets Trip";
+			sourceTree = "<group>";
+		};
+		11D653152036FBB200974F71 /* Riblets TripTests */ = {
+			isa = PBXGroup;
+			children = (
+				11D653162036FBB200974F71 /* Riblets_TripTests.swift */,
+				11D653182036FBB200974F71 /* Info.plist */,
+			);
+			path = "Riblets TripTests";
+			sourceTree = "<group>";
+		};
+		11D6532F2036FC1A00974F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D653312036FC1A00974F71 /* RibletsKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11D653322036FC2D00974F71 /* RouteSelectionRiblet */ = {
+			isa = PBXGroup;
+			children = (
+				115B24242042ADCD009FA274 /* RouteSelectionBuilder.swift */,
+				115B24262042ADEE009FA274 /* RouteSelectionRouter.swift */,
+				115B24292042AF55009FA274 /* RouteSelectionInteractor.swift */,
+				115B242B2042B039009FA274 /* RouteSelectionPresenter.swift */,
+				11D653332036FC4D00974F71 /* RouteSelectionViewController.swift */,
+				115B242D2042B06B009FA274 /* RouteSelection.storyboard */,
+			);
+			path = RouteSelectionRiblet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D652FD2036FBB200974F71 /* Riblets Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D6531B2036FBB200974F71 /* Build configuration list for PBXNativeTarget "Riblets Trip" */;
+			buildPhases = (
+				11D652FA2036FBB200974F71 /* Sources */,
+				11D652FB2036FBB200974F71 /* Frameworks */,
+				11D652FC2036FBB200974F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Riblets Trip";
+			productName = "Riblets Trip";
+			productReference = 11D652FE2036FBB200974F71 /* Riblets Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11D653112036FBB200974F71 /* Riblets TripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D6531E2036FBB200974F71 /* Build configuration list for PBXNativeTarget "Riblets TripTests" */;
+			buildPhases = (
+				11D6530E2036FBB200974F71 /* Sources */,
+				11D6530F2036FBB200974F71 /* Frameworks */,
+				11D653102036FBB200974F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D653142036FBB200974F71 /* PBXTargetDependency */,
+			);
+			name = "Riblets TripTests";
+			productName = "Riblets TripTests";
+			productReference = 11D653122036FBB200974F71 /* Riblets TripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D652F62036FBB200974F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aleksandr Darmeyko";
+				TargetAttributes = {
+					11D652FD2036FBB200974F71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					11D653112036FBB200974F71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11D652FD2036FBB200974F71;
+					};
+				};
+			};
+			buildConfigurationList = 11D652F92036FBB200974F71 /* Build configuration list for PBXProject "Riblets Trip" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D652F52036FBB200974F71;
+			productRefGroup = 11D652FF2036FBB200974F71 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 110281FC203E003900792FCB /* Products */;
+					ProjectRef = 11D653242036FBCE00974F71 /* RibletsKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				11D652FD2036FBB200974F71 /* Riblets Trip */,
+				11D653112036FBB200974F71 /* Riblets TripTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		11028201203E003A00792FCB /* RibletsKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RibletsKit.framework;
+			remoteRef = 11028200203E003A00792FCB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		11028203203E003A00792FCB /* RibletsKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RibletsKitTests.xctest;
+			remoteRef = 11028202203E003A00792FCB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D652FC2036FBB200974F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D6530C2036FBB200974F71 /* LaunchScreen.storyboard in Resources */,
+				11D653092036FBB200974F71 /* Assets.xcassets in Resources */,
+				115B242E2042B06B009FA274 /* RouteSelection.storyboard in Resources */,
+				112B401A204308980027A3FE /* DateSelection.storyboard in Resources */,
+				112B400D204300F90027A3FE /* LastTrip.storyboard in Resources */,
+				112B3FFC2043002D0027A3FE /* CurrentTrip.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D653102036FBB200974F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D652FA2036FBB200974F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112B3FFD2043002D0027A3FE /* CurrentTripPresenter.swift in Sources */,
+				112B4017204308980027A3FE /* DateSelectionRouter.swift in Sources */,
+				112B400C204300F90027A3FE /* LastTripBuilder.swift in Sources */,
+				115B242C2042B039009FA274 /* RouteSelectionPresenter.swift in Sources */,
+				115B241720402376009FA274 /* CoordinatorBuilder.swift in Sources */,
+				115B24272042ADEE009FA274 /* RouteSelectionRouter.swift in Sources */,
+				11D653342036FC4D00974F71 /* RouteSelectionViewController.swift in Sources */,
+				112B400A204300F90027A3FE /* LastTripPresenter.swift in Sources */,
+				112B3FFF2043002D0027A3FE /* CurrentTripInteractor.swift in Sources */,
+				112B4009204300F90027A3FE /* LastTripInteractor.swift in Sources */,
+				115B241B204023C2009FA274 /* CoordinatorInteractor.swift in Sources */,
+				112B3FFE2043002D0027A3FE /* CurrentTripViewController.swift in Sources */,
+				112B40012043002D0027A3FE /* CurrentTripRouter.swift in Sources */,
+				115B242A2042AF55009FA274 /* RouteSelectionInteractor.swift in Sources */,
+				11D653022036FBB200974F71 /* AppDelegate.swift in Sources */,
+				115B24252042ADCD009FA274 /* RouteSelectionBuilder.swift in Sources */,
+				112B40002043002D0027A3FE /* CurrentTripBuilder.swift in Sources */,
+				112B400E204300F90027A3FE /* LastTripRouter.swift in Sources */,
+				112B4019204308980027A3FE /* DateSelectionViewController.swift in Sources */,
+				115B2412204022C8009FA274 /* Models.swift in Sources */,
+				112B400B204300F90027A3FE /* LastTripViewController.swift in Sources */,
+				115B24152040235E009FA274 /* CoordinatorRouter.swift in Sources */,
+				112B4016204308980027A3FE /* DateSelectionPresenter.swift in Sources */,
+				112B401D2045D19F0027A3FE /* TripsService.swift in Sources */,
+				115B241D204024E8009FA274 /* Component.swift in Sources */,
+				112B4018204308980027A3FE /* DateSelectionInteractor.swift in Sources */,
+				112B401B204308980027A3FE /* DateSelectionBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D6530E2036FBB200974F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D653172036FBB200974F71 /* Riblets_TripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11D653142036FBB200974F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D652FD2036FBB200974F71 /* Riblets Trip */;
+			targetProxy = 11D653132036FBB200974F71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11D6530A2036FBB200974F71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D6530B2036FBB200974F71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D653192036FBB200974F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11D6531A2036FBB200974F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D6531C2036FBB200974F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC6B3BJRWH;
+				INFOPLIST_FILE = "Riblets Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.alexchur.Riblets-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D6531D2036FBB200974F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC6B3BJRWH;
+				INFOPLIST_FILE = "Riblets Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.alexchur.Riblets-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11D6531F2036FBB200974F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC6B3BJRWH;
+				INFOPLIST_FILE = "Riblets TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.alexchur.Riblets-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riblets Trip.app/Riblets Trip";
+			};
+			name = Debug;
+		};
+		11D653202036FBB200974F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC6B3BJRWH;
+				INFOPLIST_FILE = "Riblets TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.alexchur.Riblets-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riblets Trip.app/Riblets Trip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D652F92036FBB200974F71 /* Build configuration list for PBXProject "Riblets Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D653192036FBB200974F71 /* Debug */,
+				11D6531A2036FBB200974F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D6531B2036FBB200974F71 /* Build configuration list for PBXNativeTarget "Riblets Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D6531C2036FBB200974F71 /* Debug */,
+				11D6531D2036FBB200974F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D6531E2036FBB200974F71 /* Build configuration list for PBXNativeTarget "Riblets TripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D6531F2036FBB200974F71 /* Debug */,
+				11D653202036FBB200974F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D652F62036FBB200974F71 /* Project object */;
+}

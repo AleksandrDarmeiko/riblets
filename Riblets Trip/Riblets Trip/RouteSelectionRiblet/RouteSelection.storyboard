@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Le9-g9-5c9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Route Selection View Controller-->
+        <scene sceneID="dOi-4h-NqQ">
+            <objects>
+                <viewController id="Le9-g9-5c9" customClass="RouteSelectionViewController" customModule="Riblets_Trip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rw9-ly-yXt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ePE-J8-bQb">
+                                <rect key="frame" x="15" y="50" width="345" height="210"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Departure City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUj-8L-gt0">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sa2-8P-6pQ">
+                                        <rect key="frame" x="0.0" y="35" width="345" height="35"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrival City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYX-n8-Djv">
+                                        <rect key="frame" x="0.0" y="70" width="345" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7zc-qv-dAI">
+                                        <rect key="frame" x="0.0" y="105" width="345" height="35"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P4c-xT-Hi6">
+                                        <rect key="frame" x="0.0" y="140" width="345" height="35"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="TWR-8w-bsj"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKT-XJ-V38">
+                                        <rect key="frame" x="0.0" y="175" width="345" height="35"/>
+                                        <state key="normal" title="Get a Trip!"/>
+                                        <connections>
+                                            <action selector="getATrip:" destination="Le9-g9-5c9" eventType="touchUpInside" id="NDL-0r-uWF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHZ-Bk-n3L">
+                                <rect key="frame" x="15" y="310" width="345" height="262"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vpd-me-ZR8">
+                                <rect key="frame" x="15" y="622" width="345" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7i-uv-Tww" userLabel="Show current trip">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="30"/>
+                                        <state key="normal" title="Show current trip"/>
+                                        <connections>
+                                            <action selector="showCurrentTrip:" destination="Le9-g9-5c9" eventType="touchUpInside" id="5fS-JM-JUb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIc-1P-TiN">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="30"/>
+                                        <state key="normal" title="Show last trips"/>
+                                        <connections>
+                                            <action selector="showLastTrips:" destination="Le9-g9-5c9" eventType="touchUpInside" id="SXd-AZ-Nw3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="oIc-1P-TiN" firstAttribute="top" secondItem="vpd-me-ZR8" secondAttribute="top" id="5zp-NV-Z8k"/>
+                                    <constraint firstItem="A7i-uv-Tww" firstAttribute="top" secondItem="vpd-me-ZR8" secondAttribute="top" id="ME0-jI-YFK"/>
+                                    <constraint firstAttribute="bottom" secondItem="A7i-uv-Tww" secondAttribute="bottom" id="OOO-QA-DZC"/>
+                                    <constraint firstItem="A7i-uv-Tww" firstAttribute="leading" secondItem="vpd-me-ZR8" secondAttribute="leading" id="TNa-WV-ffQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="oIc-1P-TiN" secondAttribute="bottom" id="be2-Yq-nPc"/>
+                                    <constraint firstAttribute="trailing" secondItem="oIc-1P-TiN" secondAttribute="trailing" id="kz9-U5-MH1"/>
+                                    <constraint firstAttribute="trailing" secondItem="A7i-uv-Tww" secondAttribute="trailing" id="m2h-iu-kgi"/>
+                                    <constraint firstItem="oIc-1P-TiN" firstAttribute="leading" secondItem="vpd-me-ZR8" secondAttribute="leading" id="ypo-d9-cQ0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vpd-me-ZR8" firstAttribute="top" secondItem="eHZ-Bk-n3L" secondAttribute="bottom" constant="50" id="DKg-eo-cTw"/>
+                            <constraint firstItem="ePE-J8-bQb" firstAttribute="top" secondItem="tJY-0u-yjh" secondAttribute="top" constant="30" id="GAS-TU-x9A"/>
+                            <constraint firstItem="tJY-0u-yjh" firstAttribute="trailing" secondItem="vpd-me-ZR8" secondAttribute="trailing" constant="15" id="T1W-FI-R7R"/>
+                            <constraint firstItem="eHZ-Bk-n3L" firstAttribute="leading" secondItem="tJY-0u-yjh" secondAttribute="leading" constant="15" id="Yu3-QN-pa7"/>
+                            <constraint firstItem="vpd-me-ZR8" firstAttribute="leading" secondItem="tJY-0u-yjh" secondAttribute="leading" constant="15" id="Zu4-Ds-bGD"/>
+                            <constraint firstItem="eHZ-Bk-n3L" firstAttribute="top" secondItem="ePE-J8-bQb" secondAttribute="bottom" constant="50" id="bMP-wR-Qai"/>
+                            <constraint firstItem="tJY-0u-yjh" firstAttribute="trailing" secondItem="ePE-J8-bQb" secondAttribute="trailing" constant="15" id="gAB-rK-ILb"/>
+                            <constraint firstItem="tJY-0u-yjh" firstAttribute="trailing" secondItem="eHZ-Bk-n3L" secondAttribute="trailing" constant="15" id="hi5-eo-HQ0"/>
+                            <constraint firstItem="tJY-0u-yjh" firstAttribute="bottom" secondItem="vpd-me-ZR8" secondAttribute="bottom" constant="15" id="j5l-a7-Ckw"/>
+                            <constraint firstItem="ePE-J8-bQb" firstAttribute="leading" secondItem="tJY-0u-yjh" secondAttribute="leading" constant="15" id="lua-eR-wFv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tJY-0u-yjh"/>
+                    </view>
+                    <connections>
+                        <outlet property="currentTripButton" destination="A7i-uv-Tww" id="w7j-Wg-aZk"/>
+                        <outlet property="currentTripContainer" destination="eHZ-Bk-n3L" id="hEd-g4-MhW"/>
+                        <outlet property="lastTripButton" destination="oIc-1P-TiN" id="Y7T-uf-Qcb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K2I-Zf-fif" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182" y="189"/>
+        </scene>
+    </scenes>
+</document>

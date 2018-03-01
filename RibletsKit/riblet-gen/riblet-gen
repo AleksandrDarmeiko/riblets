@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative 'riblet-gen-lib'
+
+r = Riblet.new(false)
+r.make
+
