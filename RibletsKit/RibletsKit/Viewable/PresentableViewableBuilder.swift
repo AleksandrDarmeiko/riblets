@@ -28,7 +28,7 @@ open class PresentableViewableBuilder<ComponentClass, RouterClass, InteractorCla
         let router = super.buildPrimaryUnits()
         
         // instantiates all primary Riblet units
-        let viewController = factoryViewController()
+        let viewController = UIStoryboard.factoryRibletViewController(reflecting: viewControllerClass)
         
         // Defines primary dependencies
         router.interactor.presenter = viewController as! InteractorClass.PresenterClass
@@ -39,36 +39,6 @@ open class PresentableViewableBuilder<ComponentClass, RouterClass, InteractorCla
         return router
     }
     
-    
-    func factoryViewController() -> ViewControllerClass  {
-        return initialViewController(from: storyboardName()) as! ViewControllerClass
-    }
-    
-    func storyboardName() -> String {
-        var name = String(reflecting: viewControllerClass)
-        
-        let substr: (String, String) -> String = { string, suffix in
-            let end = string.index(string.startIndex, offsetBy: string.count - suffix.count)
-            return String(string[..<end])
-        }
-        
-        if name.contains("ViewController") {
-            name = substr(name, "ViewController")
-        }
-        else if name.contains("NavigationController") {
-            name = substr(name, "NavigationController")
-        }
-        else if name.contains("Controller") {
-            name = substr(name, "Controller")
-        }
-        
-        name = name.components(separatedBy: ".").last!
-        
-        return name
-    }
-    
-    func initialViewController(from storyboard: String) -> UIViewController {
-        return UIStoryboard.init(name: storyboard, bundle: Bundle(for: self.viewControllerClass)).instantiateInitialViewController()!
-    }
+   
     
 }
