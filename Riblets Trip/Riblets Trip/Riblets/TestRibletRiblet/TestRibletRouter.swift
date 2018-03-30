@@ -1,5 +1,5 @@
 //
-//  DateSelectionRouter.swift
+//  TestRibletRouter.swift
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -14,19 +14,19 @@
 //  limitations under the License.
 //
 
-
 import Foundation
 import UIKit
 import RibletsKit
 
 
+    
 /*!
   @brief 
 
   @discussion 
     public methods for Interactor
  */
-protocol DateSelectionRoutable : ViewableRoutable {
+protocol TestRibletRoutable : ViewableRoutable {
     
 }
  
@@ -37,6 +37,11 @@ protocol DateSelectionRoutable : ViewableRoutable {
     - Helper methods for attaching and detaching Routers
     - State-switching logic for determining states between multiple children
  */
-class DateSelectionRouter: ViewableRouter<DateSelectionInteractor, DateSelectionViewController>, DateSelectionRoutable {
+class TestRibletRouter: ViewableRouter<TestRibletInteractor, TestRibletViewController>, TestRibletRoutable {
+
+    var routeSelectionBuilder: RouteSelectionBuilder!
+
 
 }
+    
+

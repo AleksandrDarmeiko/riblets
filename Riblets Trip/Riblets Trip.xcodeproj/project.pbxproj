@@ -19,23 +19,25 @@
 		112B400C204300F90027A3FE /* LastTripBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4006204300F90027A3FE /* LastTripBuilder.swift */; };
 		112B400D204300F90027A3FE /* LastTrip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B4007204300F90027A3FE /* LastTrip.storyboard */; };
 		112B400E204300F90027A3FE /* LastTripRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4008204300F90027A3FE /* LastTripRouter.swift */; };
-		112B4016204308980027A3FE /* DateSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4010204308980027A3FE /* DateSelectionPresenter.swift */; };
-		112B4017204308980027A3FE /* DateSelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4011204308980027A3FE /* DateSelectionRouter.swift */; };
-		112B4018204308980027A3FE /* DateSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4012204308980027A3FE /* DateSelectionInteractor.swift */; };
-		112B4019204308980027A3FE /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4013204308980027A3FE /* DateSelectionViewController.swift */; };
-		112B401A204308980027A3FE /* DateSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B4014204308980027A3FE /* DateSelection.storyboard */; };
-		112B401B204308980027A3FE /* DateSelectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B4015204308980027A3FE /* DateSelectionBuilder.swift */; };
 		112B401D2045D19F0027A3FE /* TripsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B401C2045D19F0027A3FE /* TripsService.swift */; };
 		115B2412204022C8009FA274 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B2411204022C8009FA274 /* Models.swift */; };
 		115B24152040235E009FA274 /* CoordinatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24142040235E009FA274 /* CoordinatorRouter.swift */; };
 		115B241720402376009FA274 /* CoordinatorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B241620402376009FA274 /* CoordinatorBuilder.swift */; };
 		115B241B204023C2009FA274 /* CoordinatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B241A204023C2009FA274 /* CoordinatorInteractor.swift */; };
-		115B241D204024E8009FA274 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B241C204024E8009FA274 /* Component.swift */; };
 		115B24252042ADCD009FA274 /* RouteSelectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24242042ADCD009FA274 /* RouteSelectionBuilder.swift */; };
 		115B24272042ADEE009FA274 /* RouteSelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24262042ADEE009FA274 /* RouteSelectionRouter.swift */; };
 		115B242A2042AF55009FA274 /* RouteSelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B24292042AF55009FA274 /* RouteSelectionInteractor.swift */; };
 		115B242C2042B039009FA274 /* RouteSelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B242B2042B039009FA274 /* RouteSelectionPresenter.swift */; };
 		115B242E2042B06B009FA274 /* RouteSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115B242D2042B06B009FA274 /* RouteSelection.storyboard */; };
+		11CF9E30205FA53C00C8AA22 /* RouteSelectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E2F205FA53C00C8AA22 /* RouteSelectionComponent.swift */; };
+		11CF9E34205FCD7100C8AA22 /* CoordinatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E33205FCD7100C8AA22 /* CoordinatorComponent.swift */; };
+		11CF9E3D2060637F00C8AA22 /* TestRibletRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E362060637F00C8AA22 /* TestRibletRouter.swift */; };
+		11CF9E3E2060637F00C8AA22 /* TestRibletPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E372060637F00C8AA22 /* TestRibletPresenter.swift */; };
+		11CF9E3F2060637F00C8AA22 /* TestRibletComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E382060637F00C8AA22 /* TestRibletComponent.swift */; };
+		11CF9E402060637F00C8AA22 /* TestRibletInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E392060637F00C8AA22 /* TestRibletInteractor.swift */; };
+		11CF9E412060637F00C8AA22 /* TestRibletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E3A2060637F00C8AA22 /* TestRibletViewController.swift */; };
+		11CF9E422060637F00C8AA22 /* TestRibletBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF9E3B2060637F00C8AA22 /* TestRibletBuilder.swift */; };
+		11CF9E432060637F00C8AA22 /* TestRiblet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CF9E3C2060637F00C8AA22 /* TestRiblet.storyboard */; };
 		11D653022036FBB200974F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D653012036FBB200974F71 /* AppDelegate.swift */; };
 		11D653092036FBB200974F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D653082036FBB200974F71 /* Assets.xcassets */; };
 		11D6530C2036FBB200974F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D6530A2036FBB200974F71 /* LaunchScreen.storyboard */; };
@@ -81,23 +83,25 @@
 		112B4006204300F90027A3FE /* LastTripBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripBuilder.swift; sourceTree = "<group>"; };
 		112B4007204300F90027A3FE /* LastTrip.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LastTrip.storyboard; sourceTree = "<group>"; };
 		112B4008204300F90027A3FE /* LastTripRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastTripRouter.swift; sourceTree = "<group>"; };
-		112B4010204308980027A3FE /* DateSelectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionPresenter.swift; sourceTree = "<group>"; };
-		112B4011204308980027A3FE /* DateSelectionRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionRouter.swift; sourceTree = "<group>"; };
-		112B4012204308980027A3FE /* DateSelectionInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionInteractor.swift; sourceTree = "<group>"; };
-		112B4013204308980027A3FE /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
-		112B4014204308980027A3FE /* DateSelection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DateSelection.storyboard; sourceTree = "<group>"; };
-		112B4015204308980027A3FE /* DateSelectionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionBuilder.swift; sourceTree = "<group>"; };
 		112B401C2045D19F0027A3FE /* TripsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsService.swift; sourceTree = "<group>"; };
 		115B2411204022C8009FA274 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		115B24142040235E009FA274 /* CoordinatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorRouter.swift; sourceTree = "<group>"; };
 		115B241620402376009FA274 /* CoordinatorBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorBuilder.swift; sourceTree = "<group>"; };
 		115B241A204023C2009FA274 /* CoordinatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorInteractor.swift; sourceTree = "<group>"; };
-		115B241C204024E8009FA274 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		115B24242042ADCD009FA274 /* RouteSelectionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionBuilder.swift; sourceTree = "<group>"; };
 		115B24262042ADEE009FA274 /* RouteSelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionRouter.swift; sourceTree = "<group>"; };
 		115B24292042AF55009FA274 /* RouteSelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionInteractor.swift; sourceTree = "<group>"; };
 		115B242B2042B039009FA274 /* RouteSelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionPresenter.swift; sourceTree = "<group>"; };
 		115B242D2042B06B009FA274 /* RouteSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RouteSelection.storyboard; sourceTree = "<group>"; };
+		11CF9E2F205FA53C00C8AA22 /* RouteSelectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionComponent.swift; sourceTree = "<group>"; };
+		11CF9E33205FCD7100C8AA22 /* CoordinatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorComponent.swift; sourceTree = "<group>"; };
+		11CF9E362060637F00C8AA22 /* TestRibletRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRibletRouter.swift; sourceTree = "<group>"; };
+		11CF9E372060637F00C8AA22 /* TestRibletPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRibletPresenter.swift; sourceTree = "<group>"; };
+		11CF9E382060637F00C8AA22 /* TestRibletComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRibletComponent.swift; sourceTree = "<group>"; };
+		11CF9E392060637F00C8AA22 /* TestRibletInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRibletInteractor.swift; sourceTree = "<group>"; };
+		11CF9E3A2060637F00C8AA22 /* TestRibletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRibletViewController.swift; sourceTree = "<group>"; };
+		11CF9E3B2060637F00C8AA22 /* TestRibletBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRibletBuilder.swift; sourceTree = "<group>"; };
+		11CF9E3C2060637F00C8AA22 /* TestRiblet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestRiblet.storyboard; sourceTree = "<group>"; };
 		11D652FE2036FBB200974F71 /* Riblets Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Riblets Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D653012036FBB200974F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D653082036FBB200974F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +143,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		111390EE204C40CA001BC573 /* Riblets */ = {
+			isa = PBXGroup;
+			children = (
+				11CF9E352060637F00C8AA22 /* TestRibletRiblet */,
+				115B241320402335009FA274 /* CoordinatorRiblet */,
+				111390EF204C411B001BC573 /* FoundTripsGroup */,
+				112B4002204300F90027A3FE /* LastTripRiblet */,
+				112B3FF32043002D0027A3FE /* CurrentTripRiblet */,
+			);
+			path = Riblets;
+			sourceTree = "<group>";
+		};
+		111390EF204C411B001BC573 /* FoundTripsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				11D653322036FC2D00974F71 /* RouteSelectionRiblet */,
+			);
+			path = FoundTripsGroup;
+			sourceTree = "<group>";
+		};
 		112B3FF32043002D0027A3FE /* CurrentTripRiblet */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,19 +189,6 @@
 			path = LastTripRiblet;
 			sourceTree = "<group>";
 		};
-		112B400F204308980027A3FE /* DateSelectionRiblet */ = {
-			isa = PBXGroup;
-			children = (
-				112B4010204308980027A3FE /* DateSelectionPresenter.swift */,
-				112B4011204308980027A3FE /* DateSelectionRouter.swift */,
-				112B4012204308980027A3FE /* DateSelectionInteractor.swift */,
-				112B4013204308980027A3FE /* DateSelectionViewController.swift */,
-				112B4014204308980027A3FE /* DateSelection.storyboard */,
-				112B4015204308980027A3FE /* DateSelectionBuilder.swift */,
-			);
-			path = DateSelectionRiblet;
-			sourceTree = "<group>";
-		};
 		115B240C20401D64009FA274 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,11 +201,26 @@
 		115B241320402335009FA274 /* CoordinatorRiblet */ = {
 			isa = PBXGroup;
 			children = (
+				11CF9E33205FCD7100C8AA22 /* CoordinatorComponent.swift */,
 				115B241620402376009FA274 /* CoordinatorBuilder.swift */,
 				115B24142040235E009FA274 /* CoordinatorRouter.swift */,
 				115B241A204023C2009FA274 /* CoordinatorInteractor.swift */,
 			);
 			path = CoordinatorRiblet;
+			sourceTree = "<group>";
+		};
+		11CF9E352060637F00C8AA22 /* TestRibletRiblet */ = {
+			isa = PBXGroup;
+			children = (
+				11CF9E362060637F00C8AA22 /* TestRibletRouter.swift */,
+				11CF9E372060637F00C8AA22 /* TestRibletPresenter.swift */,
+				11CF9E382060637F00C8AA22 /* TestRibletComponent.swift */,
+				11CF9E392060637F00C8AA22 /* TestRibletInteractor.swift */,
+				11CF9E3A2060637F00C8AA22 /* TestRibletViewController.swift */,
+				11CF9E3B2060637F00C8AA22 /* TestRibletBuilder.swift */,
+				11CF9E3C2060637F00C8AA22 /* TestRiblet.storyboard */,
+			);
+			path = TestRibletRiblet;
 			sourceTree = "<group>";
 		};
 		11D652F52036FBB200974F71 = {
@@ -221,13 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				11D653012036FBB200974F71 /* AppDelegate.swift */,
-				115B241C204024E8009FA274 /* Component.swift */,
 				115B240C20401D64009FA274 /* Services */,
-				112B400F204308980027A3FE /* DateSelectionRiblet */,
-				112B4002204300F90027A3FE /* LastTripRiblet */,
-				112B3FF32043002D0027A3FE /* CurrentTripRiblet */,
-				115B241320402335009FA274 /* CoordinatorRiblet */,
-				11D653322036FC2D00974F71 /* RouteSelectionRiblet */,
+				111390EE204C40CA001BC573 /* Riblets */,
 				11D653082036FBB200974F71 /* Assets.xcassets */,
 				11D6530A2036FBB200974F71 /* LaunchScreen.storyboard */,
 				11D6530D2036FBB200974F71 /* Info.plist */,
@@ -255,6 +276,7 @@
 		11D653322036FC2D00974F71 /* RouteSelectionRiblet */ = {
 			isa = PBXGroup;
 			children = (
+				11CF9E2F205FA53C00C8AA22 /* RouteSelectionComponent.swift */,
 				115B24242042ADCD009FA274 /* RouteSelectionBuilder.swift */,
 				115B24262042ADEE009FA274 /* RouteSelectionRouter.swift */,
 				115B24292042AF55009FA274 /* RouteSelectionInteractor.swift */,
@@ -371,10 +393,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CF9E432060637F00C8AA22 /* TestRiblet.storyboard in Resources */,
 				11D6530C2036FBB200974F71 /* LaunchScreen.storyboard in Resources */,
 				11D653092036FBB200974F71 /* Assets.xcassets in Resources */,
 				115B242E2042B06B009FA274 /* RouteSelection.storyboard in Resources */,
-				112B401A204308980027A3FE /* DateSelection.storyboard in Resources */,
 				112B400D204300F90027A3FE /* LastTrip.storyboard in Resources */,
 				112B3FFC2043002D0027A3FE /* CurrentTrip.storyboard in Resources */,
 			);
@@ -394,33 +416,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CF9E402060637F00C8AA22 /* TestRibletInteractor.swift in Sources */,
 				112B3FFD2043002D0027A3FE /* CurrentTripPresenter.swift in Sources */,
-				112B4017204308980027A3FE /* DateSelectionRouter.swift in Sources */,
 				112B400C204300F90027A3FE /* LastTripBuilder.swift in Sources */,
 				115B242C2042B039009FA274 /* RouteSelectionPresenter.swift in Sources */,
 				115B241720402376009FA274 /* CoordinatorBuilder.swift in Sources */,
+				11CF9E3D2060637F00C8AA22 /* TestRibletRouter.swift in Sources */,
+				11CF9E412060637F00C8AA22 /* TestRibletViewController.swift in Sources */,
+				11CF9E34205FCD7100C8AA22 /* CoordinatorComponent.swift in Sources */,
 				115B24272042ADEE009FA274 /* RouteSelectionRouter.swift in Sources */,
 				11D653342036FC4D00974F71 /* RouteSelectionViewController.swift in Sources */,
 				112B400A204300F90027A3FE /* LastTripPresenter.swift in Sources */,
+				11CF9E3E2060637F00C8AA22 /* TestRibletPresenter.swift in Sources */,
+				11CF9E30205FA53C00C8AA22 /* RouteSelectionComponent.swift in Sources */,
 				112B3FFF2043002D0027A3FE /* CurrentTripInteractor.swift in Sources */,
 				112B4009204300F90027A3FE /* LastTripInteractor.swift in Sources */,
 				115B241B204023C2009FA274 /* CoordinatorInteractor.swift in Sources */,
 				112B3FFE2043002D0027A3FE /* CurrentTripViewController.swift in Sources */,
 				112B40012043002D0027A3FE /* CurrentTripRouter.swift in Sources */,
 				115B242A2042AF55009FA274 /* RouteSelectionInteractor.swift in Sources */,
+				11CF9E3F2060637F00C8AA22 /* TestRibletComponent.swift in Sources */,
 				11D653022036FBB200974F71 /* AppDelegate.swift in Sources */,
 				115B24252042ADCD009FA274 /* RouteSelectionBuilder.swift in Sources */,
 				112B40002043002D0027A3FE /* CurrentTripBuilder.swift in Sources */,
 				112B400E204300F90027A3FE /* LastTripRouter.swift in Sources */,
-				112B4019204308980027A3FE /* DateSelectionViewController.swift in Sources */,
 				115B2412204022C8009FA274 /* Models.swift in Sources */,
 				112B400B204300F90027A3FE /* LastTripViewController.swift in Sources */,
 				115B24152040235E009FA274 /* CoordinatorRouter.swift in Sources */,
-				112B4016204308980027A3FE /* DateSelectionPresenter.swift in Sources */,
+				11CF9E422060637F00C8AA22 /* TestRibletBuilder.swift in Sources */,
 				112B401D2045D19F0027A3FE /* TripsService.swift in Sources */,
-				115B241D204024E8009FA274 /* Component.swift in Sources */,
-				112B4018204308980027A3FE /* DateSelectionInteractor.swift in Sources */,
-				112B401B204308980027A3FE /* DateSelectionBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +592,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MC6B3BJRWH;
 				INFOPLIST_FILE = "Riblets Trip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.alexchur.Riblets-Trip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -583,6 +608,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MC6B3BJRWH;
 				INFOPLIST_FILE = "Riblets Trip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.alexchur.Riblets-Trip";
 				PRODUCT_NAME = "$(TARGET_NAME)";

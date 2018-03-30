@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
 #
-#   riblet-gen.rb
+#   PresentableViewControllerGen.rb
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,7 +14,23 @@
 #   limitations under the License.
 #
 
-require_relative 'lib/Generator'
+require_relative 'ViewControllerGen'
 
-Generator.new.generate
+class PresentableViewControllerGen < ViewControllerGen
 
+  def content
+    view_controller = super
+    presentable = <<-CONTENT
+protocol #{@name}Presenter {
+
+} 
+
+    CONTENT
+    presentable + view_controller
+  end
+
+  def super_class
+    super + ", #{@name}Presenter"
+  end
+
+end

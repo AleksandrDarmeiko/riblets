@@ -1,5 +1,5 @@
 //
-//  DateSelectionBuilder.swift
+//  TestRibletPresenter.swift
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -14,10 +14,23 @@
 //  limitations under the License.
 //
 
-
 import Foundation
 import UIKit
 import RibletsKit
 
 
+    
+/*!
+  @brief 
+
+  @discussion 
+  - Do any view logic here. Any if-else construction must be declared here
+  - public methods for Interactor. Methods present Model structures provided by Interactor into ViewController 
+    display methods calls with prepared for viewing data. Name of any method for this purpose must be started with "present".
+  
+ */
+class TestRibletPresenter: Presenter<TestRibletViewController> {
+
+}
+    
 

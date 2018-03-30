@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        coordinatorRouter = CoordinatorBuilder.defaultBuilder(component: Component()).buid()
+        coordinatorRouter = CoordinatorBuilder.defaultBuilder(component: CoordinatorComponent()).buid()
         coordinatorRouter.activate()
         
         return true

@@ -1,5 +1,5 @@
 //
-//  DateSelectionPresenter.swift
+//  TestRibletComponent.swift
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -19,16 +19,25 @@ import UIKit
 import RibletsKit
 
 
-/*!
-  @brief 
+    
 
-  @discussion 
-  - Do any view logic here. Any if-else construction must be declared here
-  - public methods for Interactor. Methods present Model structs provided by Interactor into ViewController 
-    display methods calls with prepared for viewing data. Name of any method for this purpose must be started with "present".
-  
- */
-class DateSelectionPresenter: Presenter<DateSelectionViewController> {
+class TestRibletComponent {
+    
+        var routeSelectionBuilder: RouteSelectionBuilder {
+      get {
+        return RouteSelectionBuilder.defaultBuilder(component: RouteSelectionComponent())
+      }
+    }
+
+    var tripsService: TripsService {
+      get {
+        let service = TripsService()
+return service
+
+      }
+    }
+
 
 }
+    
 

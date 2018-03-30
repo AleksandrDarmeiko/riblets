@@ -53,14 +53,6 @@ open class ViewController<ActionType> : UIViewController, View {
     
 }
 
-open class NavigationController<ActionType> : UINavigationController, View {
-    
-    public weak var userActionsStream: ModelStream<ActionType?>!
-    
-    public func send(action: ActionType) {
-        userActionsStream << action
-    }
-}
 
 open class SplitViewController<ActionType> : UISplitViewController, View {
     

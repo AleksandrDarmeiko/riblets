@@ -9,9 +9,9 @@
 import Foundation
 import RibletsKit
 
-class CoordinatorBuilder: Builder<Component, CoordinatorRouter, CoordinatorInteractor> {
+class CoordinatorBuilder: Builder<CoordinatorComponent, CoordinatorRouter, CoordinatorInteractor> {
     
-    static func defaultBuilder(component: Component) -> CoordinatorBuilder {
+    static func defaultBuilder(component: CoordinatorComponent) -> CoordinatorBuilder {
         return CoordinatorBuilder(component,
                                   routerClass : CoordinatorRouter.self,
                                   interactorClass : CoordinatorInteractor.self)

@@ -1,5 +1,5 @@
 //
-//  DateSelectionInteractor.swift
+//  TestRibletInteractor.swift
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -14,19 +14,22 @@
 //  limitations under the License.
 //
 
-
 import Foundation
 import UIKit
 import RibletsKit
 
 
-enum DateSelectionUserAction {
-   
+    
+enum TestRibletUserAction {
+   case smt
 }
 
-class DateSelectionInteractor : ViewableInteractor<DateSelectionRoutable, DateSelectionUserAction, DateSelectionPresenter> {
-    
-    /*!
+class TestRibletInteractor : ViewableInteractor<TestRibletRoutable, TestRibletUserAction, TestRibletPresenter> {
+
+    var tripsService: TripsService!
+
+
+        /*!
       @brief Entry point 
 
       @discussion 
@@ -48,4 +51,17 @@ class DateSelectionInteractor : ViewableInteractor<DateSelectionRoutable, DateSe
         
     }
 
+
+
+    override func handleUserAction(_ action: TestRibletUserAction) {
+        super.handleUserAction(action)
+        
+        switch action {
+        case .smt:
+            break
+        }
+    }
+
 }
+    
+

@@ -9,13 +9,13 @@
 import Foundation
 import RibletsKit
 
-class RouteSelectionBuilder: ViewableBuilder<Component,
+class RouteSelectionBuilder: ViewableBuilder<RouteSelectionComponent,
                                              RouteSelectionRouter,
                                              RouteSelectionInteractor,
                                              RouteSelectionPresenter,
                                              RouteSelectionViewController> {
     
-    static func defaultBuilder(component: Component) -> RouteSelectionBuilder {
+    static func defaultBuilder(component: RouteSelectionComponent) -> RouteSelectionBuilder {
         return RouteSelectionBuilder(component,
                                      routerClass: RouteSelectionRouter.self,
                                      interactorClass: RouteSelectionInteractor.self,

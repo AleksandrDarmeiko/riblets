@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
 #
-#   riblet-gen.rb
+#   ClassGen.rb
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,7 +14,37 @@
 #   limitations under the License.
 #
 
-require_relative 'lib/Generator'
+require_relative 'RibletsGenUtils'
 
-Generator.new.generate
+class ClassGen
 
+  def initialize(name)
+    @name = name
+  end
+
+  def make
+    RibletsGenUtils.make_riblet_file @name, file_name, body
+  end
+
+  def body
+    <<-BODY
+#{RibletsGenUtils.head_comment file_name}
+    
+#{content}    
+
+    BODY
+  end
+
+  def file_name
+    "#{@name}#{file_suffix}.swift"
+  end
+
+  def file_suffix
+    ''
+  end
+
+  def content
+    ''
+  end
+
+end

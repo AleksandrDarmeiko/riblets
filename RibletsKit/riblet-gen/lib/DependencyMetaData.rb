@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
 #
-#   riblet-gen.rb
+#   DependencyMetaData.rb
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,7 +14,28 @@
 #   limitations under the License.
 #
 
-require_relative 'lib/Generator'
+require_relative 'Extensions'
 
-Generator.new.generate
+class DependencyMetaData
 
+  def initialize(name)
+    @name = name
+  end
+
+  def property_name
+    @name.uncapitalize + suffix
+  end
+
+  def property_type
+    @name + suffix
+  end
+
+  def suffix
+    ''
+  end
+
+  def instantiation_statement
+    ''
+  end
+
+end

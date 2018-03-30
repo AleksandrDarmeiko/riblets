@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
 #
-#   riblet-gen.rb
+#   ViewableInteractorGen.rb
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,7 +14,32 @@
 #   limitations under the License.
 #
 
-require_relative 'lib/Generator'
+require_relative 'InteractorGen'
 
-Generator.new.generate
+class ViewableInteractorGen < InteractorGen
+
+  def content
+    <<-CONTENT
+enum #{@name}UserAction {
+   
+}
+
+class #{@name}Interactor : ViewableInteractor<#{@name}Routable, #{@name}UserAction, #{@name}Presenter> {
+
+    #{dependencies}
+
+    #{callbacks}
+
+    override func handleUserAction(_ action: #{@name}UserAction) {
+        super.handleUserAction(action)
+        
+        switch action {
+        }
+    }
+
+}
+    CONTENT
+  end
+
+end
 

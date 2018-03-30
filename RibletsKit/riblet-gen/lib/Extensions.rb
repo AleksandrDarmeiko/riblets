@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
 #
-#   riblet-gen.rb
+#   Extensions.rb
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,7 +14,9 @@
 #   limitations under the License.
 #
 
-require_relative 'lib/Generator'
-
-Generator.new.generate
+class String
+  def uncapitalize
+    self[0, 1].downcase + self[1..-1]
+  end
+end
 

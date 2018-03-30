@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11028207203E0DF700792FCB /* ServiceStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11028206203E0DF700792FCB /* ServiceStream.swift */; };
+		111390F1204C4298001BC573 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111390F0204C4298001BC573 /* NavigationController.swift */; };
 		112B40202045F3410027A3FE /* PresentableViewableBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B401F2045F3410027A3FE /* PresentableViewableBuilder.swift */; };
 		11397CA81F805494006A0422 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11397CA71F805494006A0422 /* Interactor.swift */; };
 		11397CAC1F80EFBA006A0422 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11397CAB1F80EFBA006A0422 /* Router.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		11028206203E0DF700792FCB /* ServiceStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStream.swift; sourceTree = "<group>"; };
+		111390F0204C4298001BC573 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		112B401F2045F3410027A3FE /* PresentableViewableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableViewableBuilder.swift; sourceTree = "<group>"; };
 		11397CA71F805494006A0422 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		11397CAB1F80EFBA006A0422 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				115B2422204026E6009FA274 /* ViewableInteractor.swift */,
 				11397CB11F80FC3C006A0422 /* Presenter.swift */,
 				11397CAF1F80F887006A0422 /* ViewController.swift */,
+				111390F0204C4298001BC573 /* NavigationController.swift */,
 			);
 			path = Viewable;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				115B2409203EDC57009FA274 /* ServiceResponse.swift in Sources */,
 				11397CAC1F80EFBA006A0422 /* Router.swift in Sources */,
 				115B2423204026E6009FA274 /* ViewableInteractor.swift in Sources */,
+				111390F1204C4298001BC573 /* NavigationController.swift in Sources */,
 				114F55AE1F7DB4D8009D9721 /* File.swift in Sources */,
 				117D00232047F5B6008DF8D1 /* UIStoryboard+Extentions.swift in Sources */,
 				112B40202045F3410027A3FE /* PresentableViewableBuilder.swift in Sources */,
@@ -472,6 +476,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RibletsKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ufs.travel.RibletsKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -494,6 +499,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RibletsKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ufs.travel.RibletsKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

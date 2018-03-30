@@ -1,6 +1,5 @@
-#!/usr/bin/env ruby
 #
-#   riblet-gen.rb
+#   ViewableRouterGen.rb
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -15,7 +14,36 @@
 #   limitations under the License.
 #
 
-require_relative 'lib/Generator'
+require_relative 'RouterGen'
 
-Generator.new.generate
+class ViewableRouterGen < RouterGen
 
+  def content
+    <<-CONTENT
+/*!
+  @brief 
+
+  @discussion 
+    public methods for Interactor
+ */
+protocol #{@name}Routable : ViewableRoutable {
+    
+}
+ 
+/*!
+  @brief 
+
+  @discussion 
+    - Helper methods for attaching and detaching Routers
+    - State-switching logic for determining states between multiple children
+ */
+class #{@name}Router: ViewableRouter<#{@name}Interactor, #{@name}ViewController>, #{@name}Routable {
+
+    #{dependencies}
+
+}
+    CONTENT
+  end
+
+
+end
