@@ -17,7 +17,6 @@
 		114F559D1F7DB3FB009D9721 /* RibletsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114F55931F7DB3FB009D9721 /* RibletsKit.framework */; };
 		114F55A21F7DB3FB009D9721 /* ModelStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F55A11F7DB3FB009D9721 /* ModelStreamTests.swift */; };
 		114F55A41F7DB3FB009D9721 /* RibletsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 114F55961F7DB3FB009D9721 /* RibletsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		114F55AE1F7DB4D8009D9721 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F55AD1F7DB4D8009D9721 /* File.swift */; };
 		1159FCA7203E12E200D863C0 /* ServiceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159FCA6203E12E200D863C0 /* ServiceOperation.swift */; };
 		1159FCA9203E1DBE00D863C0 /* ServiceTransmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159FCA8203E1DBE00D863C0 /* ServiceTransmitter.swift */; };
 		115B2407203EDC32009FA274 /* ServiceStateChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B2406203EDC32009FA274 /* ServiceStateChecking.swift */; };
@@ -55,7 +54,6 @@
 		114F559C1F7DB3FB009D9721 /* RibletsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibletsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		114F55A11F7DB3FB009D9721 /* ModelStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStreamTests.swift; sourceTree = "<group>"; };
 		114F55A31F7DB3FB009D9721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		114F55AD1F7DB4D8009D9721 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		1159FCA6203E12E200D863C0 /* ServiceOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOperation.swift; sourceTree = "<group>"; };
 		1159FCA8203E1DBE00D863C0 /* ServiceTransmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTransmitter.swift; sourceTree = "<group>"; };
 		115B2406203EDC32009FA274 /* ServiceStateChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStateChecking.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				11D65335203703D300974F71 /* Viewable */,
 				114F55971F7DB3FB009D9721 /* Info.plist */,
 				11397CAD1F80F329006A0422 /* etc */,
-				114F55AD1F7DB4D8009D9721 /* File.swift */,
 			);
 			path = RibletsKit;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 				11397CAC1F80EFBA006A0422 /* Router.swift in Sources */,
 				115B2423204026E6009FA274 /* ViewableInteractor.swift in Sources */,
 				111390F1204C4298001BC573 /* NavigationController.swift in Sources */,
-				114F55AE1F7DB4D8009D9721 /* File.swift in Sources */,
 				117D00232047F5B6008DF8D1 /* UIStoryboard+Extentions.swift in Sources */,
 				112B40202045F3410027A3FE /* PresentableViewableBuilder.swift in Sources */,
 				11028207203E0DF700792FCB /* ServiceStream.swift in Sources */,
