@@ -24,7 +24,7 @@ public protocol Routable : class {
     func deactivate()
     var name: String! { get set }
     var children: [Routable] { get set }
-    weak var parent: Routable? { get set }
+    var parent: Routable? { get set }
 }
 
 open class Router<InteractorClass> : Routable where InteractorClass : Interactable {

@@ -20,7 +20,7 @@ import UIKit
 public protocol View: class {
     
     associatedtype ActionType: Any
-    weak var userActionsStream: ModelStream<ActionType?>! { get set }
+    var userActionsStream: ModelStream<ActionType?>! { get set }
     
 }
 
